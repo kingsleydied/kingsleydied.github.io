@@ -1,0 +1,125 @@
+body
+{
+background-color:rgb(200, 200, 200);
+}
+words
+{
+  background-color: rgba(191, 78, 175, 0.5);
+ padding-top: 10px;
+  padding-right: 1900px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+}
+.co {
+    background-color: pink;
+    }
+
+.heading {
+   text-align: center;
+   font-size: 60px;
+   color: #2b67ba;
+       }
+
+.topnav {
+    color: #2b67ba;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.info {
+    font-size: 30px;
+    color:#204c8a;
+    }
+.pic{
+    float:right;
+    margin-top: -200px;
+    }
+.name {
+    text-align: center;
+       font-size: 60px;
+   color: #8a2047
+    }
+.name1 {
+     text-align: center;
+       font-size: 60px;
+   color: pink
+       }
+.star{
+    margin-bottom: -1060px;
+    }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+    }
+.tab{
+    font-size: 20px;
+    margin-top:70px;
+    margin-left:10px;
+}
+.names
+{
+    color:white;
+    }
+.books{
+    color:#80587a
+    }
+.shows{
+    color:#585880
+    }
+.songs{
+    color:#58805f
+    }
+.con {
+      margin-top:30px;
+     text-align: center;
+    }
+.text{
+     margin-top:70px;}
+}
+
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 15%;
+  margin-top: 1px;
+  color: #fc5603;
+  font-size: 20px;
+    }
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
